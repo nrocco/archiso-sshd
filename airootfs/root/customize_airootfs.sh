@@ -20,7 +20,7 @@ ssh-dss AAAAB3NzaC1kc3MAAACBAJx8smUiRbZi6J72NxHKhCEvVcdhuzCbd8Sa+igrvR1fBkCHTMGT
 EOF
 chmod 600 /root/.ssh/authorized_keys
 
-useradd -m -p "" -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /usr/bin/zsh arch
+useradd -m -p "" -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /usr/bin/zsh arch || true
 
 chmod 750 /etc/sudoers.d
 chmod 440 /etc/sudoers.d/g_wheel
