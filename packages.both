@@ -1,17 +1,13 @@
 arch-install-scripts
 b43-fwcutter
 btrfs-progs
-clonezilla
 crda
-darkhttpd
 ddrescue
 dhclient
 dialog
 dmraid
-dnsmasq
 dnsutils
 dosfstools
-elinks
 ethtool
 f2fs-tools
 fsarchiver
@@ -25,10 +21,8 @@ hdparm
 intel-ucode
 ipw2100-fw
 ipw2200-fw
-irssi
 lftp
 linux-atm
-mc
 mtools
 nfs-utils
 nilfs-utils
@@ -37,7 +31,6 @@ ntfs-3g
 ntp
 openconnect
 openssh
-openvpn
 partclone
 parted
 partimage
@@ -59,4 +52,3 @@ wpa_actiond
 wvdial
 xl2tpd
 zd1211-firmware
-zsh
