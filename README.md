@@ -34,3 +34,6 @@ An example ipxe boot file using http could like like this:
     kernel http://${gateway}/archiso/boot/x86_64/vmlinuz archisobasedir=archiso archiso_http_srv=http://${gateway}/ ip=:::::eth0:dhcp
     initrd http://${gateway}/archiso/boot/x86_64/archiso.img
     boot
+
+More information on ipxe can be found on their website here
+http://ipxe.org/scripting
