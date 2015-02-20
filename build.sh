@@ -257,4 +257,4 @@ for arch in x86_64; do
     run_once make_prepare
 done
 
-run_once make_iso
+#run_once make_iso
